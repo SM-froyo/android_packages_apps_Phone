@@ -182,8 +182,5 @@ public class PhoneToggler extends BroadcastReceiver  {
     private static void log(String msg) {
         Log.d(LOG_TAG, msg);
     }
-
-
-
     
 }
