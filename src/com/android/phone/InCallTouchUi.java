@@ -142,14 +142,14 @@ public class InCallTouchUi extends FrameLayout
         mIncomingCallWidget.setLeftTabResources(
                 R.drawable.ic_jog_dial_answer,
                 com.android.internal.R.drawable.jog_tab_target_green,
-                com.android.internal.R.drawable.jog_tab_bar_left_answer,
-                com.android.internal.R.drawable.jog_tab_left_answer
+                com.android.internal.R.drawable.jog_tab_bar_left_end_normal,
+                com.android.internal.R.drawable.jog_tab_left_normal
                 );
         mIncomingCallWidget.setRightTabResources(
                 R.drawable.ic_jog_dial_decline,
                 com.android.internal.R.drawable.jog_tab_target_red,
-                com.android.internal.R.drawable.jog_tab_bar_right_decline,
-                com.android.internal.R.drawable.jog_tab_right_decline
+                com.android.internal.R.drawable.jog_tab_bar_right_end_normal,
+                com.android.internal.R.drawable.jog_tab_right_normal
                 );
 
         // For now, we only need to show two states: answer and decline.
